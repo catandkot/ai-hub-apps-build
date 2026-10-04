@@ -44,6 +44,9 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+        <meta-data
+            android:name="com.bugsnag.android.API_KEY"
+            android:value="00000000000000000000000000000000" />
     </application>
 
 </manifest>
